@@ -56,7 +56,7 @@ Gui margin,0,0 ; Sets the window margin to 0,0 to disable padding
 Gui crosshair:Add,Progress,x-2 y-2 w35 h35 c%a1%%a2%%a3% -border vCrosshair,100 ; Creates a silder with the hex color value of a1+a2+a3(RGB), and removes the slider's default border
 
 ; ------ Alteration ------
-CrosshairDisplay := 2 ; Select Display for Crosshair
+CrosshairDisplay := 1 ; Select Display for Crosshair
 CrosshairDisplayX := 0
 CrosshairDisplayY := 0
 CrosshairOffsetX := 0
